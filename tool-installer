@@ -19,6 +19,7 @@ source ~/.zshrc
 echo "Installing Go tools..."
 go install -v github.com/projectdiscovery/pdtm/cmd/pdtm@latest
 go install -v github.com/projectdiscovery/chaos-client/cmd/chaos@latest
+go install github.com/censys/cencli/cmd/cencli@latest
 go install -v github.com/tomnomnom/waybackurls@latest
 go install -v github.com/tomnomnom/anew@latest
 go install -v github.com/tomnomnom/qsreplace@latest
