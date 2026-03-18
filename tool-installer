@@ -62,15 +62,16 @@ cd LinkFinder && pip3 install -r requirements.txt --break-system-packages && cd 
 git clone https://github.com/m4ll0k/SecretFinder.git
 cd SecretFinder && pip3 install -r requirements.txt --break-system-packages && cd ..
 
+# Smuggler
+git clone https://github.com/defparam/smuggler.git
+
+
 wget https://github.com/Findomain/Findomain/releases/latest/download/findomain-linux.zip
 unzip findomain-linux.zip && chmod +x findomain && sudo mv findomain /usr/local/bin/
 
 # MassDNS
 git clone https://github.com/blechschmidt/massdns.git
 cd massdns && make && sudo mv bin/massdns /usr/local/bin/ && cd ..
-
-# Amass
-go install -v github.com/owasp-amass/amass/v4/...@master
 
 # GF Patterns
 git clone https://github.com/1ndianl33t/Gf-Patterns.git
