@@ -66,6 +66,9 @@ cd LinkFinder && pip3 install -r requirements.txt --break-system-packages && cd 
 git clone https://github.com/m4ll0k/SecretFinder.git
 cd SecretFinder && pip3 install -r requirements.txt --break-system-packages && cd ..
 
+git clone https://github.com/anmolksachan/TheTimeMachine
+cd TheTimeMachine && pip3 install -r requirements.txt --break-system-packages && cd ..
+
 # Smuggler
 git clone https://github.com/defparam/smuggler.git
 
