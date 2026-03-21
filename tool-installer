@@ -2,7 +2,7 @@
 
 # System dependencies (run with sudo)
 echo "Installing system dependencies..."
-sudo apt update && sudo apt install -y jq curl wget git python3 python3-pip golang-go nmap masscan chromium-browser parallel whois dnsutils libpcap-dev build-essential kitty
+sudo apt update && sudo apt install -y jq curl wget git python3 python3-pip golang-go nmap masscan chromium-browser parallel whois dnsutils libpcap-dev build-essential whatweb
 
 # Go environment
 echo "Setting up Go environment..."
