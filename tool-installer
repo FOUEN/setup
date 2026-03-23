@@ -94,6 +94,10 @@ echo "External tools installed!"
 WORDLIST_DIR="$HOME/hack/wordlists"
 mkdir -p $WORDLIST_DIR && cd $WORDLIST_DIR
 
+wget https://wordlists-cdn.assetnote.io/data/kiterunner/routes-large.kite.tar.gz
+tar -xzf routes-large.kite.tar.gz
+rm routes-large.kite.tar.gz
+
 # SecLists
 git clone https://github.com/danielmiessler/SecLists.git
 
